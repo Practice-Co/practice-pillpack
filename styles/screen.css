@@ -1,0 +1,9 @@
+@tailwind base;
+
+strong {
+  @apply font-semibold;
+}
+
+@tailwind components;
+
+@tailwind utilities;

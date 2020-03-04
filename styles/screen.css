@@ -4,6 +4,10 @@ strong {
   @apply font-semibold;
 }
 
+.number {
+  @apply w-8 h-8 inline-block font-normal text-center text-lg rounded-full leading-8 mr-3;
+}
+
 @tailwind components;
 
 @tailwind utilities;

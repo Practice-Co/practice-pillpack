@@ -8,6 +8,13 @@ strong {
   @apply w-8 h-8 inline-block font-normal text-center text-lg rounded-full leading-8 mr-3;
 }
 
+/* Medium (md) */
+@media (min-width: 768px) {
+  .number {
+    @apply mr-4;
+  }
+}
+
 @tailwind components;
 
 @tailwind utilities;

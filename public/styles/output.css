@@ -611,6 +611,14 @@ strong {
   margin-right: 0.75rem;
 }
 
+/* Medium (md) */
+
+@media (min-width: 768px) {
+  .number {
+    margin-right: 1rem;
+  }
+}
+
 .container {
   width: 100%;
   margin-right: auto;
